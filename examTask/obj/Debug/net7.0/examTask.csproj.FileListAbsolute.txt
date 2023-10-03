@@ -1,0 +1,15 @@
+/workspaces/Exam/examTask/obj/Debug/net7.0/examTask.csproj.AssemblyReference.cache
+/workspaces/Exam/examTask/obj/Debug/net7.0/examTask.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Exam/examTask/obj/Debug/net7.0/examTask.AssemblyInfoInputs.cache
+/workspaces/Exam/examTask/obj/Debug/net7.0/examTask.AssemblyInfo.cs
+/workspaces/Exam/examTask/obj/Debug/net7.0/examTask.csproj.CoreCompileInputs.cache
+/workspaces/Exam/examTask/bin/Debug/net7.0/examTask
+/workspaces/Exam/examTask/bin/Debug/net7.0/examTask.deps.json
+/workspaces/Exam/examTask/bin/Debug/net7.0/examTask.runtimeconfig.json
+/workspaces/Exam/examTask/bin/Debug/net7.0/examTask.dll
+/workspaces/Exam/examTask/bin/Debug/net7.0/examTask.pdb
+/workspaces/Exam/examTask/obj/Debug/net7.0/examTask.dll
+/workspaces/Exam/examTask/obj/Debug/net7.0/refint/examTask.dll
+/workspaces/Exam/examTask/obj/Debug/net7.0/examTask.pdb
+/workspaces/Exam/examTask/obj/Debug/net7.0/examTask.genruntimeconfig.cache
+/workspaces/Exam/examTask/obj/Debug/net7.0/ref/examTask.dll
