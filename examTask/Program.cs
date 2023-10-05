@@ -6,34 +6,34 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
 */
+Console.WriteLine("Сколько будет слов?");
+int userCount = int.Parse(Console.ReadLine());
+
+string[] userWords = UserWords(userCount);
+LengthOfWords(userWords);
 
 
-Console.Clear();
-
+string[] UserWords(int 4userCount)
 {
-    // Вводим исходный массив строк с клавиатуры
-    Console.WriteLine("Введите строки, разделенные пробелами:");
-    string input = Console.ReadLine();
-    string[] inputStrings = input.Split();
-
-    // Инициализируем пустой массив для результата, <= 3 символов
-    string[] resultStrings = new string[0];
-
-    // Проходим по каждой строке в исходном массиве
-    foreach (string str in inputStrings)
+    string[] userWords = new string[userCount];
+    for (int i = 0; i < userCount; i++)
     {
-        // Если длина строки меньше или равна 3 символам, добавляем ее в результат
-        if (str.Length <= 3)
+        Console.WriteLine($"Введите {i + 1}-е слово:");
+        userWords[i] = Console.ReadLine();
+    }
+    return userWords;
+}
+
+void LengthOfWords(string[] userWords)
+{
+    Console.WriteLine("Слова длина которых меньше, либо равна 3 символам: ");
+    Console.ForegroundColor = ConsoleColor.Green;
+    for (int i = 0; i < userWords.Length; i++)
+    {
+        if (userWords[i].Length <= 3)
         {
-            Array.Resize(ref resultStrings, resultStrings.Length + 1);
-            resultStrings[resultStrings.Length - 1] = str;
+            Console.WriteLine(userWords[i]);
         }
     }
-
-    // Выводим результат
-    Console.WriteLine("Результат:");
-    foreach (string str in resultStrings)
-    {
-        Console.WriteLine(str);
-    }
+    Console.ResetColor();
 }
