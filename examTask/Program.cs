@@ -13,7 +13,7 @@ string[] userWords = UserWords(userCount);
 LengthOfWords(userWords);
 
 
-string[] UserWords(int 4userCount)
+string[] UserWords(int userCount)
 {
     string[] userWords = new string[userCount];
     for (int i = 0; i < userCount; i++)
